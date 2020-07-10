@@ -1,0 +1,72 @@
+body{
+    margin: 0;
+    background-color: cornsilk;
+    box-sizing: border-box;
+}
+.header{
+    text-align: center;
+    font-weight: bold; 
+}
+.area{
+    text-align: center;
+    background-color: rgb(128, 0, 17);
+}
+.box{
+    background-color: darkgray;
+    width: 33%;
+    position: relative;
+    float: left;
+    border: 1px solid black;
+    padding: 0 0px 10px 10px;
+    
+}
+.subBox{
+    background-color: brown;
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+    min-width: 50px;
+    text-align: center;
+    float: right;
+    border: 1px solid black;
+    
+    
+}
+P{
+    position: relative;
+    padding-top: 15px;
+
+}
+
+
+/*for large devices*/
+@media (min-width: 992px)  {
+    .col-lg {
+        width: 30.5%;
+        margin: 5px;
+        float: left;
+    }
+}
+
+/*for tablets*/
+@media (min-width: 768px) and (max-width: 991px) {
+    .col-md {
+        width: 47%;
+        margin: 5px;
+        float: left;
+    }
+    .col-md-2 {
+        width: 96.5%;
+        margin: 9px;
+        float: left;
+    }
+}
+
+/*for phones*/
+@media (max-width: 767px) {
+    .col-sm {
+        width: 90%;
+        margin: 10px 25px;
+        float: left;
+    }
+}
